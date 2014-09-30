@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-challenge-KLCPopup.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-challenge-Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>53A1965652264E3898FE31EB</key>
+		<key>5802782EC4CB4C7991422AD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD12F04182544CCB939A5005</key>
+		<key>82F674BA6C4148D085644F47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5496B5E35754148994D7D9B</key>
+		<key>A416AEC102034396A17770E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D299C117D056401F83B3D827</key>
 		<dict>
 			<key>primary</key>
 			<true/>
