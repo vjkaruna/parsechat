@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             (user: PFUser!, error: NSError!) -> Void in
             if user != nil {
                 println("user \(user.username)")
+                self.performSegueWithIdentifier("signInSegue", sender: self)
             } else {
                println("Error 1")
             }
@@ -48,6 +49,7 @@ class ViewController: UIViewController {
             (succeeded: Bool!, error: NSError!) -> Void in
             if error == nil {
                 println("user \(pfuser.username)")
+                self.performSegueWithIdentifier("signUpSegue", sender: self)
             } else {
                 let errorString = (error.userInfo! as NSDictionary)["error"] as NSString
                 // Show the errorString somewhere and let the user try again.
