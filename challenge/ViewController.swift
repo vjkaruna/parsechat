@@ -10,20 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
-
+    
     @IBOutlet weak var passwordTextField: UITextField!
     
+    var signInSuccessful = false
+    var signUpSuccessful = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func signInAction(sender: AnyObject) {
         var username = emailTextField.text
         var password = passwordTextField.text
@@ -33,11 +35,11 @@ class ViewController: UIViewController {
                 println("user \(user.username)")
                 self.performSegueWithIdentifier("signInSegue", sender: self)
             } else {
-               println("Error 1")
+                println("Error 1")
             }
         }
     }
-
+    
     @IBAction func signUpAction(sender: AnyObject) {
         var pfuser = PFUser()
         
@@ -59,7 +61,13 @@ class ViewController: UIViewController {
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
-        return false
+        if identifier == "signInSegue" && signInSuccessful {
+            return true
+        } else if identifier == "signUpSegue && signUpSuccessul" {
+            return true
+        } else {
+            return false
+        }
     }
 }
 
