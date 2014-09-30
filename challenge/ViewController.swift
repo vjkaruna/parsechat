@@ -57,5 +57,9 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        return false
+    }
 }
 
