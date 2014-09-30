@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D299C117D056401F83B3D827"
-               BuildableName = "libPods-challenge-Bolts.a"
-               BlueprintName = "Pods-challenge-Bolts"
+               BlueprintIdentifier = "A416AEC102034396A17770E6"
+               BuildableName = "libPods-challenge-KLCPopup.a"
+               BlueprintName = "Pods-challenge-KLCPopup"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

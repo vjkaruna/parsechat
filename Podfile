@@ -4,6 +4,7 @@
 target "challenge" do
 
 pod 'Parse'
+pod 'KLCPopup'
 
 end
 

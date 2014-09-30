@@ -1,13 +1,16 @@
 PODS:
   - Bolts (1.1.2)
+  - KLCPopup (1.0)
   - Parse (1.4.1):
     - Bolts (~> 1.1.2)
 
 DEPENDENCIES:
+  - KLCPopup
   - Parse
 
 SPEC CHECKSUMS:
   Bolts: 2635e8698a630774689441047f3465d78c48d485
+  KLCPopup: 23548d0454ca156b0eb684f791f234b9c2134369
   Parse: db1a09c832b7509edcc88a65dc07229f5e578c73
 
 COCOAPODS: 0.33.1
